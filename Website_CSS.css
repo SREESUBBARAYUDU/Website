@@ -59,6 +59,26 @@ h1 {
     font-size: 1rem;
 }
 
+#result-screen {
+    margin-top: 1.5rem;
+}
+
 .hidden {
     display: none;
+}
+
+#start-btn, #restart-btn {
+    padding: 0.8rem 2rem;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 8px;
+    background: #4f8cff;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    transition: background 0.2s;
+}
+
+#start-btn:hover, #restart-btn:hover {
+    background: #2563eb;
 }

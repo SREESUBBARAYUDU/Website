@@ -2,16 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>JEE Quiz - Test</title>
-    <link rel="stylesheet" href="Website_CSS.css">
+    <title>Reasoning Quiz</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="quiz-container">
-        <h1>JEE Quick Quiz</h1>
-        <div id="question"></div>
-        <div id="options"></div>
+        <h1>Reasoning Quiz</h1>
+        <div id="home-screen">
+            <button id="start-btn">Start</button>
+        </div>
+        <div id="quiz-screen" class="hidden">
+            <div id="question"></div>
+            <div id="options"></div>
+        </div>
+        <div id="result-screen" class="hidden">
+            <h2>Quiz Over!</h2>
+            <div id="final-score"></div>
+            <button id="restart-btn">Restart</button>
+        </div>
         <div id="explanation" class="hidden"></div>
     </div>
-    <script src="Website_JAVA.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
